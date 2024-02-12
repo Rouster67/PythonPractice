@@ -1,4 +1,7 @@
-NumberOne= input("Enter number 1: ")
-NumberTwo= input("Enter number 2: ")
+print("Welcome to the roller coaster")
+height = int(input("What is your height in cm? "))
 
-print(int(NumberOne) / int(NumberTwo))
+if height >= 120:
+    print("You can ride the roller coaster!")
+else:
+    print("Sorry, you have to grow taller before you can ride.")
